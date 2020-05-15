@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS bioStats (
     `weight` INT,
     PRIMARY KEY (`id`)
 );
-INSERT INTO biostats (name, sex, age, height, weight) VALUES
+INSERT INTO bioStats (name, sex, age, height, weight) VALUES
     ('Alex','       "M"',   41,       74,      170),
     ('Bert','       "M"',   42,       68,      166),
     ('Carl','       "M"',   32,       70,      155),
